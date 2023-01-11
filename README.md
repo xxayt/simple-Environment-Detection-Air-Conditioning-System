@@ -1,6 +1,10 @@
-# 项目简述
+# NUS Summer Workshop2022 — AIoT Finally Porject
 
-基于环境检测和语音识别的空调系统
+**项目名称**：基于环境检测和语音识别的空调系统（其实没有语音识别）
+
+**项目简述**：主要基于microbit和Rasberry Pi，通过温湿度传感器感知环境变化，根据算法调整空调推荐模式并自动提醒用户，或使用户可在其网站线上调节本地空调。详细内容可通过Poster, Video和Presentation了解项目内容。
+
+<img src="show.png" alt="show" style="zoom: 50%;" />
 
 # 文件结构
 
