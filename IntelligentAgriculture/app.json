@@ -1,0 +1,25 @@
+{
+    "pages": [
+        "pages/humidityAndTemperature/humidityAndTemperature",
+        "pages/control/comtrol"
+    ],
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于记录运输轨迹"
+        }
+    },
+    "usingComponents": {
+        "recycle-view": "miniprogram-recycle-view/recycle-view",
+        "recycle-item": "miniprogram-recycle-view/recycle-item"
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#FFF",
+        "enablePullDownRefresh": true
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

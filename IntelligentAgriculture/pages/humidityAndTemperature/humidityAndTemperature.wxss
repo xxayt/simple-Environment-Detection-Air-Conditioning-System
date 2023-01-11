@@ -1,0 +1,89 @@
+/* pages/humidityAndTemperature/humidityAndTemperature.wxss */
+/**index.wxss**/
+page {
+  background-color: #f2f2f2;
+  font-size: 30px;
+}
+.window{
+  color :#000000;
+  font-size: 30px;
+}
+.window-green{
+  color:#04BE02;
+}
+
+.btn-area{
+  margin-top: 10%;
+}
+
+.button-sp-area{
+  margin-top: 50%;
+}
+
+#btn{
+    margin-top: 10%;
+    height: 90rpx;
+    background: #BFCBD9;
+    color: white ;
+  }
+
+.delete {
+  width: 100vw;
+  text-align: center;
+}
+
+.isRuleShow {
+  opacity: 1;
+  margin-top: 20%;
+  font-size: 30px;
+} 
+ 
+.isRuleHide {
+  opacity: 0;
+  margin-top: 20%;
+  font-size: 30px;
+}
+
+.text1{
+    font-size: 20px;
+    margin-left:-130px;
+    margin-top: -80px;
+}
+
+.text2{
+    font-size: 18px;
+    float:left;
+    margin-left: -90px;
+    margin-top: 45px;
+}
+
+.text3{
+    font-size: 20px;
+    margin-left:210px;
+    margin-top: -150px;
+    float: left;
+}
+
+.text4{
+    font-size: 18px;
+    float:left;
+    margin-left:210px;
+    margin-top: -75px;
+}
+
+.Image1{
+  width: 280rpx; 
+  height: 280rpx;
+  border-radius: 100%;
+  float:left;
+  margin-left:35px;
+}
+
+.Image2{
+    width: 280rpx; 
+    height: 280rpx;
+    border-radius: 100%;
+    float:left;
+    margin-left:175px;
+    margin-top: -118px;
+  }

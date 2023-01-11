@@ -1,0 +1,22 @@
+<!--pages/humidityAndTemperature/humidityAndTemperature.wxml-->
+<view class="delete {{editTrue?'isRuleShow':'isRuleHide'}}">
+    <text catchtap="click" class="{{color}}" class="text1">Temp\n</text>
+    <image class="Image1" src="/images/temp.gif"></image> 
+    <text catchtap="click" class="{{color}}" class="text2">{{temperature}}℃</text>
+</view>
+<view class="delete {{editTrue?'isRuleShow':'isRuleHide'}}" margin-top="10px">
+  <text catchtap="click" class="{{color}}" class="text3">Humi\n</text>
+  <image class="Image2" src="/images/hum.gif"></image> 
+  <text catchtap="click" class="{{color}}" class="text4">{{humidity}}%</text>
+</view>
+
+<view class="button-sp-area" bindtap="button">
+  <button type="primary">click me</button>
+</view>
+<view class="btn-area" bindtap="button1">
+  <button type="primary"  plain="true">hide</button>
+</view>
+
+<view class="btn-area" id="buttonContainer">
+    <button id="btn" type="primary" bindtap="go2detail">go to controller</button>
+  </view>

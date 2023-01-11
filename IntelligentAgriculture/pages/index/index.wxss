@@ -1,0 +1,87 @@
+/* pages/login/login.wxss */
+page{ 
+  height: 100%; 
+} 
+ 
+.container { 
+  height: 100%; 
+  display: flex; 
+  flex-direction: column;   
+  padding: 0; 
+  box-sizing: border-box; 
+  background-color: #f2f2f2 
+}  
+ 
+/*登录图片*/ 
+.login-icon{ 
+  flex: none; 
+} 
+.login-img{ 
+  width: 600rpx; 
+  height: 600rpx;
+  border-radius: 100%;
+} 
+ 
+/*表单内容*/ 
+.login-from { 
+  margin-top: 20px; 
+  flex: auto; 
+  height:100%; 
+} 
+ 
+.inputView { 
+  background-color: #fff; 
+  height: 98rpx;
+  line-height: 98rpx; 
+} 
+/*输入框*/ 
+.nameImage, .keyImage { 
+  margin-left: 40rpx;
+  width: 30rpx; 
+  height: 30rpx;
+} 
+ 
+.loginLab { 
+  margin: 15px 15px 15px 10px; 
+  color: #545454; 
+  font-size: 28rpx;
+} 
+.inputText { 
+  display: block; 
+  float: right; 
+  text-align: right; 
+  margin-right:44rpx; 
+  height: 70rpx;
+  margin-top: 20rpx;
+  color: #000; 
+  font-size: 28rpx ;
+} 
+ 
+.line { 
+  width: 100%; 
+  height: 1px; 
+  background-color: #cccccc; 
+  margin-top: 1px; 
+} 
+/*按钮*/ 
+.loginBtnView { 
+  width: 100%; 
+  height: auto; 
+  background-color: #f2f2f2; 
+  margin-top: 0px; 
+  margin-bottom: 0px; 
+  padding-bottom: 0px; 
+} 
+ 
+.loginBtn { 
+  width: 80%; 
+  margin-top: 25px; 
+  font-size: 32rpx;
+} 
+
+.registerText{
+  font-size: 27rpx;
+  margin-top: 20rpx;
+  text-align: center;
+  color: #9b9b9b;
+}

@@ -1,0 +1,43 @@
+<view class="container"> 
+    <view class="login-from"> 
+    <!--账号--> 
+    <view class="inputView"> 
+      <image class="nameImage" src="/images/username.png"></image> 
+      <label class="loginLab">account</label> 
+      <input class="inputText" placeholder="enter your account" bindinput="usernameInput" /> 
+    </view> 
+    <view class="line"></view> 
+ 
+    <!--密码--> 
+    <view class="inputView"> 
+      <image class="keyImage" src="/images/password.png"></image> 
+      <label class="loginLab">password</label> 
+      <input class="inputText" password="true" placeholder="enter your password" bindinput="passwordInput" /> 
+    </view> 
+    <view class="line"></view> 
+
+    <!--再次确认密码--> 
+    <view class="inputView"> 
+      <image class="keyImage" src="/images/password.png"></image> 
+      <label class="loginLab">Enter password again</label> 
+      <input class="inputText" password="true" placeholder="password again"bindinput="confirmPasswordInput" /> 
+    </view> 
+
+    <view class="passwordText"> 
+        <text class="passwordText">Note: Password must contain one uppercase, one lowercase letter, and be 6 to 16 characters long</text>
+    </view>
+ 
+    <!--按钮--> 
+    <view class="loginBtnView"> 
+      <button class="loginBtn" type="primary" size="{{primarySize}}" 
+loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" 
+bindtap="register">confirm</button> 
+    </view> 
+
+    <view class="registerText">
+      <text class="registerText" bindtap="back" >return</text>
+    </view>
+  </view> 
+</view> 
+
+

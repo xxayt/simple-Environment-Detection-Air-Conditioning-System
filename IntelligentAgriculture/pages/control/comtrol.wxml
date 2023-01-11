@@ -1,0 +1,37 @@
+<!--pages/comtrol.wxml-->
+<view class="delete {{editTrue?'isRuleShow':'isRuleHide'}}">
+  <image class="Image3" src="/images/lab1.gif"></image>
+
+   <view class='class-view1'>
+     <text class='text5'>switch</text>
+     <view class="body-view1">
+       <switch class='switch-view1' checked="{{switch1Checked}}" bindchange="switch1Change" type='switch'/>
+     </view>
+   </view>
+
+    <text class="text6">model</text>
+    <radio-group bindchange="bandleChange">
+       <radio color="red" value="zhileng" class="r1" checked="{{checked}}"><image class="Image5" src="/images/zl.jpg"></image></radio>
+       <radio color="red" value="chushi" class="r2"><image class="Image6" src="/images/cs.jpg"></image></radio>
+    </radio-group>
+</view>
+
+<view class="delete {{editTrue?'isRuleShow':'isRuleHide'}}" margin-top="10px">
+  <image class="Image4" src="/images/lab2.gif"></image> 
+  <view class='class-view4'>
+  <text class="text7">switch</text>
+  <view class="body-view4">
+  <switch class='switch-view4' checked="{{switch4Checked}}" bindchange="switch4Change" type='switch'/>
+  </view>
+  </view>
+</view>
+
+<view class="button-sp-area" bindtap="button" >
+  <button type="primary" id="btn">click me</button>
+</view>
+
+<view class="btn-area" bindtap="button1">
+  <button type="primary"  plain="true">hide</button>
+</view>
+
+

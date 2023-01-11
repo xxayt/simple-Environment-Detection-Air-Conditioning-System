@@ -1,0 +1,36 @@
+<view class="container"> 
+  <view class="login-icon"> 
+    <image class="login-img" src="/images/logo.gif"></image> 
+  </view> 
+  <view class="login-from"> 
+ 
+    <!--账号--> 
+    <view class="inputView"> 
+      <image class="nameImage" src="/images/username.png"></image> 
+      <label class="loginLab">account</label> 
+      <input class="inputText" placeholder="enter your account" bindinput="phoneInput" /> 
+    </view> 
+    <view class="line"></view> 
+ 
+    <!--密码--> 
+    <view class="inputView"> 
+      <image class="keyImage" src="/images/password.png"></image> 
+      <label class="loginLab">password</label> 
+      <input class="inputText" password="true" placeholder="enter your password" bindinput="passwordInput" /> 
+    </view> 
+ 
+    <!--按钮--> 
+    <view class="loginBtnView"> 
+      <button class="loginBtn" type="primary" size="{{primarySize}}" 
+loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" 
+bindtap="login">login</button> 
+    </view> 
+
+    <view class="registerText">
+      <text class="registerText" bindtap="register" >Don't have an account yet? Click to register</text>
+    </view>
+
+  </view> 
+</view> 
+
+
