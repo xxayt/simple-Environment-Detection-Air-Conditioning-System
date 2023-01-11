@@ -1,0 +1,132 @@
+<!doctype html>
+<div class="click">
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+
+        <link rel="stylesheet" href="css/background.css">
+        <link rel="stylesheet" href="css/tem.css">
+        <link rel="stylesheet" href="css/hum.css">
+        <link rel="stylesheet" href="css/air.css">
+        <link rel="stylesheet" href="css/fan.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/control.js"></script>
+        <script src="js/display.js"></script>
+        <script src="js/alert.js"></script>
+    </head>
+
+
+    <body>
+    <div class="content">
+        <div class="stars"></div>
+        <div class="tit">
+            <div class="t">
+                <span class="title">Voice-</span>
+                <span class="title">Controlled</span>&nbsp;
+                <span class="title">and</span>&nbsp;
+                <span class="title">Environment</span>&nbsp;
+                <span class="title">Detection</span>
+            </div>
+            <div class="p">
+                <span class="para"></span>
+                <span class="para">Air</span>&nbsp;
+                <span class="para">Conditioning</span>&nbsp;
+                <span class="para">System</span>
+            </div>
+        </div>
+
+        <div class="tem">
+            <div class="gradient-border1" class="box">
+                <div class="icon2">
+                    <p id="wendu"></p>
+                </div>
+                <div class="temp">Temperature</div>
+            </div>
+        </div>
+        <div class="hu">
+            <div class="gradient-border1" class="box">
+                <div class="icon3">
+                    <p id="shidu"></p>
+                </div>
+                <div class="hum">Humidity</div>
+            </div>
+        </div>
+        <div class="co">
+            <div class="gradient-border2" class="box">
+                <div class="lab1">
+                    <div class='console1'>
+                        <div class='session'>
+                            <h2>model</h2>
+                            <div class='row' id='filters' style="margin-left: 80px;margin-top: -30px;">
+                                <input id='zhileng' type='radio' name='toggle' value='zhileng'>
+                                <label for='zhileng'><img src="./img/zl.jpg" class="ms"></label>
+                                <input id='chushi' type='radio' name='toggle' value='chushi'>
+                                <label for='chushi'><img src="./img/cs.jpg" class="ms"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>switch</h3>
+                    <label for="toggle1" class="toggle1">
+                        <input type="checkbox" name='toggle1' id="toggle1" class="toggle1-input" onclick="checkboxOnclick_a(this)">
+                        <span class="toggle1-button"></span>
+                    </label>
+                </div>
+                <div class="ai">
+                    <h5>AI</h5>
+                    <p id="ac">--status--</p>
+                    <p id="aa">air conditioner:<br></p>
+                    <p id="aai"></p>
+                    <p id="af">fan:</p>
+                    <p id="afi"></p>
+                    <form method="post">
+                        <input type="button" value="follow AI control" onclick="quit()" class="b">
+                    </form>
+                </div>
+                <div class="lab2">
+                    <div class="console2">
+                        <div class='session'>
+                        </div>
+                    </div>
+                    <h4>switch</h4>
+                    <label for="toggle2" class="toggle2">
+                        <input type="checkbox" id="toggle2" class="toggle2-input" onclick="checkboxOnclick_f(this)">
+                        <span class="toggle2-button"></span>
+                    </label>
+                </div>
+                <div class="con">Controller</div>
+            </div>
+        </div>
+        <div class="i1">
+            <div class="cont"><img src="./img/cont.png"></div>
+        </div>
+        <div class="i2">
+            <img class="icon1" src="./img/logo.gif" alt="">
+        </div>
+    </div>
+    </body>
+    <script>
+        var title=document.getElementsByClassName('title');
+        var para=document.getElementsByClassName('para');
+
+        for(i0=0;i0<title.length;i0++) {
+            title[i0].style.animationDelay = (i0*0.1)+"s";
+        }
+
+        for(i1=0;i1<para.length;i1++) {
+            para[i1].style.animationDelay = (i1*0.1)+"s";
+        }
+
+        window.alert = function(name){
+            var iframe = document.createElement("IFRAME");
+            iframe.style.display="none";
+            iframe.setAttribute("src", 'data:text/plain,');
+            document.documentElement.appendChild(iframe);
+            window.frames[0].window.alert(name);
+            iframe.parentNode.removeChild(iframe);
+        }
+    </script>
+    </html>
+</div>
