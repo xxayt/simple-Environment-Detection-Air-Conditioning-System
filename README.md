@@ -2,7 +2,7 @@
 
 **项目名称**：基于环境检测和语音识别的空调系统（其实没有语音识别）
 
-**项目简述**：主要基于microbit和Rasberry Pi，通过温湿度传感器感知环境变化，根据算法调整空调推荐模式并自动提醒用户，或使用户可在其网站线上调节本地空调。详细内容可通过Poster, Video和Presentation了解项目内容。
+**项目简述**：主要基于[Micro:bit](https://microbit.org/)和[Rasberry Pi](https://www.raspberrypi.com/)，通过温湿度传感器感知环境变化，根据算法调整空调推荐模式并自动提醒用户，或使用户可在其网站线上调节本地空调。详细内容可通过[项目介绍文档Introduction](https://github.com/xxayt/simple-Environment-Detection-Air-Conditioning-System/blob/main/项目介绍文档Introduction.pdf)，[项目海报Poster](https://github.com/xxayt/simple-Environment-Detection-Air-Conditioning-System/blob/main/海报Poster.pdf)和[项目展示Presentation](https://github.com/xxayt/simple-Environment-Detection-Air-Conditioning-System/blob/main/设计展示Presentation.pdf)了解项目更多内容。
 
 <img src="show.png" alt="show" style="zoom: 50%;" />
 
